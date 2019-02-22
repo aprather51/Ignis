@@ -87,12 +87,13 @@ const BtnBox = styled.div`
 	border-radius: 4px;
 	border: 0;
 	display: block;
+	color: #efefef !important;
 	margin: 3.5em auto;
 	padding: .5em 1em;
+	text-transform: capitalize;
 	vertical-align: middle;
 	box-shadow: inset 0 0 0 1px #efefef;
-	color: #efefef !important;
-	text-transform: capitalize;
+
 	&::after {
 		position: absolute;
 		top: 2.4em;

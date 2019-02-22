@@ -2,38 +2,27 @@ import { createGlobalStyle } from 'styled-components';
 import theme from 'assets/styled/theme';
 
 export const Global = createGlobalStyle`
+  /* Global Font*/
+  @import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,700,900');
 
-:root {
-    font-size: 100%;
-}
-
-body {
-    font-size: 1em;
-    line-height: 1.4em;
-    
-}
-
-/* Extra Small Mobile */
-@media screen and (min-width: theme.breakpoints.xs) {
-    body {
-        font-size: calc(1em + (1.3125 - 1) * ((100vw - 20em) / (80 - 20)));
-        line-height: calc(1.4em + (1.8 - 1.4) * ((100vw - 20em) / (80 - 20)));
-    }
-}
-
-/* Desktop */
-@media (min-width: theme.breakpoints.lg) {
-    body {
-        font-size: 1.3125em;
-        line-height: 1.8em;
-    }
-
-}
-
-/* Global Theme */
-  body{
-    ${theme.fontFamily.googleLink};
+  body {
     font-family: 'Merriweather', serif;
+    font-size: 1em;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Extra Small Mobile (320px) */
+  @media screen and (min-width: ${theme.breakpoints.xs}) {
+    body {
+      font-size: calc(1em + 6 * ((100vw - 320px) / 680));
+    }
+  }
+  
+  /* Desktop (1000px) */
+  @media screen and (min-width: ${theme.breakpoints.desktop}) {
+    body {
+      font-size: 1.3125em;
+    }
   }
 
   h1,h2,h3,h4,h5,h6,p{

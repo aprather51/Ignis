@@ -13,7 +13,6 @@ module.exports = {
 		`gatsby-plugin-react-helmet`,
 		`gatsby-plugin-resolve-src`,
 		`gatsby-plugin-styled-components`,
-		`gatsby-plugin-sitemap`,
 		`gatsby-plugin-catch-links`,
 		{
 			/* Images */

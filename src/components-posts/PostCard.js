@@ -63,10 +63,11 @@ const SetPostCard = styled.div`
 `;
 
 const Title = styled.h2`
-	font-size: 1.5rem;
+	/* font-size: 1.5rem; */
 	font-weight: 400;
 	text-transform: capitalize;
 	margin: 1rem 1rem 0 1rem;
+	line-height: 1.7em;
 `;
 
 const Date = styled.span`
@@ -74,4 +75,7 @@ const Date = styled.span`
 	margin: 0rem 1rem 0.5rem;
 `;
 
-const Excerpt = styled.div`padding: 10px;`;
+const Excerpt = styled.div`
+	padding: 1em;
+	line-height: 1.7em;
+`;

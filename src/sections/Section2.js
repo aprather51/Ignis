@@ -19,7 +19,7 @@ const Section2 = () => (
 			>
 				<Container>
 					<Grid lgCols={2} smCols={1} gaps={'3rem'}>
-						<Grid lgCols={2} medCols={2} smCols={2}>
+						<Grid lgCols={2} medCols={2} smCols={2} gaps={'3em'}>
 							<Img lgSize={'150px'} fluid={data.icon1.childImageSharp.fluid} />
 							<Img lgSize={'150px'} fluid={data.icon2.childImageSharp.fluid} />
 							<Img lgSize={'150px'} fluid={data.icon3.childImageSharp.fluid} />

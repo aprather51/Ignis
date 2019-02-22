@@ -13,12 +13,12 @@ const SEO = props => {
 	let imgHeight;
 	let pageURL;
 
-	const contentURL = config.siteUrl + config.pathPrefix;
+	const contentURL = config.url + config.pathPrefix;
 	const truePrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
 
 	// Set Default OpenGraph Parameters for Fallback
-	title = config.siteTitle;
-	description = config.siteDescription;
+	title = config.title;
+	description = config.description;
 
 	//Set Default Image Parameter for fallback
 	image = config.image || postNode.frontmatter.image.childImageSharp.resize.src;
@@ -130,7 +130,7 @@ const SEO = props => {
 	return (
 		<Helmet>
 			{/* General tags */}
-			<html lang={config.siteLanguage} />
+			<html lang={config.language} />
 			{/* <Title>Will be assigned on every page <SEO></Title> */}
 			<meta name="image" content={image} />
 			<meta name="description" content={description} />

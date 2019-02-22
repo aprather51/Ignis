@@ -36,10 +36,9 @@ export default Title;
 
 const SetTitle = styled.h1`
 	color: ${props => props.color};
-	line-height: ${props => props.lineHeight};
+	font-size: ${props => props.fontSize || undefined};
+	line-height: ${props => props.lineHeight || undefined};
 	text-align: ${props => props.align || undefined};
-
-	//! Work on font size in responive mode
 	/* Mobile */
 	@media screen and (max-width: ${theme.breakpoints.mobile}) {
 		text-align: ${props => props.smAlign};

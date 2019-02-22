@@ -57,7 +57,7 @@ const SetFooter = styled.footer`
 
 	p {
 		color: ${props => props.color || theme.colors.secondary};
-		font-size: ${props => props.fontSize || '.8rem'};
+		font-size: ${props => props.fontSize || '.6rem'};
 		padding: '.5em 0';
 		text-align: ${props => props.align || 'center'};
 	}
