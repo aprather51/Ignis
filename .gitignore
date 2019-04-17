@@ -71,3 +71,7 @@ yarn-error.log
 
 #todo
 x-todo
+
+#Gatsby 
+.cache
+/public
