@@ -1,10 +1,10 @@
 const year = new Date().getFullYear();
 
-const author = `Arthur Prather, Jr`;
-const url = `https://aprather.net`;
-const title = `Gatsby Starter Template by ${author}`;
-const titleAlt = `Starter Template`;
-const description = `The Gatsby V2 Starter Template by ${author}`;
+const author = `Your Name`;
+const url = `Your URL`;
+const title = `Ignis by ${author}`;
+const titleAlt = `Ignis Starter Template`;
+const description = `The Ignis Starter Template for Gatsby V2`;
 
 module.exports = {
 	pathPrefix: '/',
