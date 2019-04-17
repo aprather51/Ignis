@@ -29,7 +29,6 @@ gatsby new <your project name> https://github.com/aprather51/Ignis.git
 ```
 
 ## Clone
-***
 `git clone`
 ```sh
 git clone https://github.com/aprather51/Ignis.git
@@ -120,5 +119,5 @@ Replace Favicon
 Arthur Prather, Jr — [@aprather51](https://github.com/aprather51)
 
 ## License
-This project is open source and available under the [MIT LICENSE)(https://github.com/aprather51/Ignis/blob/master/LICENSE)
+This project is open source and available under the [MIT LICENSE](https://github.com/aprather51/Ignis/blob/master/LICENSE)
 
