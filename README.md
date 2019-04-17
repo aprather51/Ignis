@@ -11,9 +11,7 @@ My Full Customized Starter Template for Gatsby called 'Ignis' which mean fire in
 [![Generic badge](https://img.shields.io/badge/deploy-netlify-darkcyan.svg)](https://shields.io/)
 </div>
 
-*** 
 ## Feature
-
 - Single page layouts.
 - React 16
 - Blog/Posts
@@ -25,8 +23,6 @@ My Full Customized Starter Template for Gatsby called 'Ignis' which mean fire in
 - Animated with react-spring.
 
 ## Installation
-***
-
 `gatsby-cli`
 ```sh
 gatsby new <your project name> https://github.com/aprather51/Ignis.git
@@ -46,7 +42,6 @@ rm -rf .git && git init
 
 
 ## Usage
-***
 Run on develop mode
 ```sh
 #develop
@@ -66,7 +61,6 @@ Build and Deploy with Netlify.
 
 
 ## Customization
-***
 Website data for SEO
 ```
 /src/assets/utils/profile.js
@@ -123,10 +117,8 @@ Replace Favicon
 ```
 
 ## Author
-***
 Arthur Prather, Jr — [@aprather51](https://github.com/aprather51)
 
 ## License
-***
 This project is open source and available under the [MIT LICENSE)(https://github.com/aprather51/Ignis/blob/master/LICENSE)
 
