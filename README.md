@@ -8,8 +8,7 @@ My Full Customized Starter Template for Gatsby called 'Ignis' which mean fire in
 
 [![Generic badge](https://img.shields.io/badge/Version-v1.01-yellow.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/build-passing-green.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/dependi-passing-green.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/deploy_to-netlify-darkcyan.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/deploy-netlify-darkcyan.svg)](https://shields.io/)
 </div>
 
 *** 
@@ -23,7 +22,7 @@ My Full Customized Starter Template for Gatsby called 'Ignis' which mean fire in
 - Custom config settings.
 - SEO settings. 
 - Customized reuse components using styled-component & polished.
-- Animation with react-spring.
+- Animated with react-spring.
 
 ## Installation
 ***
@@ -123,11 +122,11 @@ Replace Favicon
 /src/favicon/icon.png
 ```
 
-Author
+## Author
 ***
 Arthur Prather, Jr — [@aprather51](https://github.com/aprather51)
 
-License
+## License
 ***
 This project is open source and available under the [MIT LICENSE)(https://github.com/aprather51/Ignis/blob/master/LICENSE)
 
