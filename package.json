@@ -21,7 +21,7 @@
         "gatsby-transformer-sharp": "^2.1.13",
         "polished": "^2.3.3",
         "prism-themes": "^1.0.1",
-        "prismjs": "^1.15.0",
+        "prismjs": "^1.23.0",
         "prop-types": "^15.7.1",
         "react": "^16.8.1",
         "react-dom": "^16.8.1",
